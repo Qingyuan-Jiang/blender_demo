@@ -1,0 +1,33 @@
+{
+    "humbi_subject_id": 1,
+    "background_image_pattern": "/home/qingyuan/projects/multidrone/multidrone_nri/Walking/BG/{}/{:08d}.jpg",
+    "light": {
+        "lamps": {
+            "anchors": [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66],
+            "location_offset": [0, -1, 0],
+            "local_rotation": {
+                "angle": -45, 
+                "axis": "X"
+            },
+            "energy": 35
+        },
+        "sun": {
+            "location": [-3, -5, -5],
+            "rotation": [0.3, 0.2, -0.9, 0.25]
+        }
+    },
+    "buff_subject_id": 5,
+    "buff_sequence_name": "shortlong_hips",
+    "body": {
+        "transform": {
+            "location": [1.38672, 2.76761, 1.19611],
+            "rotation": [-0.008228, 0.955793, -0.006987, -0.293842],
+            "scale": [0.02, 0.02, 0.02]
+        }
+    },
+    "render": {
+        "engine": "EEVEE",
+        "image_format": "JPEG",
+        "image_quality": 90
+    }
+}
